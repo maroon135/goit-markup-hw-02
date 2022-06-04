@@ -10,10 +10,10 @@
 
 <body>
     <header class="header">
-        <!--logo-->
+        <!--logo WebStudio-->
         <a href="#">
-            <!--WebStudio (text or image ???)-->
-            <img src="./img/WebStudio-logo-2x.png" alt="logo" width="288" height="39" />
+            <!--<span class="blue">Web</span>Studio-->
+            <img src="./images/WebStudio-logo-2x.png" alt="logo" width="288" height="39" />
         </a>
         <nav>
             <ul>
@@ -23,52 +23,131 @@
             </ul>
         </nav>
         <div>
-            <p>
+            <span>
                 <a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a>
-            </p>
-            <p>
+            </span>
+            <span>
                 <a href="tel:+380961111111" class="contact-link">+38 096 111 11 11</a>
-            </p>
+            </span>
         </div>
     </header>
     <main>
-        <!--order service-->
-        <article class="order-service">
+        <!--order service Заказать услугу -->
+        <section class="order-service">
             <h1>Эффективные решения для вашего бизнеса</h1>
             <a href="#">Заказать услугу</a>
-        </article>
-        <section class="service-quality">
-            <dl>
-                <dt>Внимание к деталям</dt>
-                <dd>
-                    Идейные соображения, а также начало повседневной работы по формированию позиции.
-                </dd>
-                <dt>Пунктуальность</dt>
-                <dd>
-                    Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
-                </dd>
-                <dt>Планирование</dt>
-                <dd>
-                    Равным образом консультация с широким активом в значительной степени обуславливает.
-                </dd>
-                <dt>Современные технологии</dt>
-                <dd>
-                    Значимость этих проблем настолько очевидна, что реализация плановых заданий.
-                </dd>
-            </dl>
         </section>
-        <!--what are we doing-->
-        <section class="what-are-we-doing">
-            <h1>Чем мы занимаемся</h1>
+        <!--benefits Особенности -->
+        <section class="benefit-s">
             <ul>
-                <li><a href="#"><img src="./img/box1-2x.png" alt="" width="370" height="294" /></a></li>
-                <li><a href="#"><img src="./img/box2-2x.png" alt="" width="370" height="294" /></a></li>
-                <li><a href="#"><img src="./img/box3-2x.png" alt="" width="370" height="294" /></a></li>
+                <li>
+                    <article class="benefit">
+                        <h3 class="benefit-title">Внимание к деталям</h3>
+                        <p class="benefit-text">
+                            Идейные соображения, а также начало повседневной работы по
+                            формированию позиции.
+                        </p>
+                    </article>
+                </li>
+                <li>
+                    <article class="benefit">
+                        <h3 class="benefit-title">Пунктуальность</h3>
+                        <p class="benefit-text">
+                            Задача организации, в особенности же рамки и место обучения кадров
+                            влечет за собой.
+                        </p>
+                    </article>
+
+                </li>
+                <li>
+                    <article class="benefit">
+                        <h3 class="benefit-title">Планирование</h3>
+                        <p class="benefit-text">
+                            Равным образом консультация с широким активом в значительной степени
+                            обуславливает.
+                        </p>
+                    </article>
+                </li>
+                <li>
+                    <article class="benefit">
+                        <h3 class="benefit-title">Современные технологии</h3>
+                        <p class="benefit-text">
+                            Значимость этих проблем настолько очевидна, что реализация плановых
+                            заданий.
+                        </p>
+                    </article>
+
+                </li>
+            </ul>
+        </section>
+        <!--what are we doing Чем мы занимаемся-->
+        <section class="what-are-we-doing">
+            <h2>Чем мы занимаемся</h2>
+            <ul>
+                <li>
+                    <a href="#"><img src="./images/box1-2x.png" alt="service" width="370" height="294" /></a>
+                </li>
+                <li>
+                    <a href="#"><img src="./images/box2-2x.png" alt="service" width="370" height="294" /></a>
+                </li>
+                <li>
+                    <a href="#"><img src="./images/box3-2x.png" alt="service" width="370" height="294" /></a>
+                </li>
+            </ul>
+        </section>
+        <!--our team Наша команда-->
+        <section class="our-team">
+            <h2>Наша команда</h2>
+            <ul class="our-team-row">
+                <li>
+                    <article class="our-team-card">
+                        <span class="our-team-image"><img src="./images/team-card-1-3x.jpg" alt="team" width="270"
+                                height="260" /></span>
+                        <span class="our-team-name">Игорь Демьяненко</span>
+                        <span class="our-team-position">Product Designer</span>
+                    </article>
+                </li>
+                <li>
+                    <article class="our-team-card">
+                        <span class="our-team-image"><img src="./images/team-card-2-3x.jpg" alt="team" width="270"
+                                height="260" /></span>
+                        <span class="our-team-name">Ольга Репина</span>
+                        <span class="our-team-position">Frontend Developer</span>
+                    </article>
+                </li>
+                <li>
+                    <article class="our-team-card">
+                        <span class="our-team-image"><img src="./images/team-card-3-3x.jpg" alt="team" width="270"
+                                height="260" /></span>
+                        <span class="our-team-name">Николай Тарасов</span>
+                        <span class="our-team-position">Marketing</span>
+                    </article>
+                </li>
+                <li>
+                    <article class="our-team-card">
+                        <span class="our-team-image"><img src="./images/team-card-4-3x.jpg" alt="team" width="270"
+                                height="260" /></span>
+                        <span class="our-team-name">Михаил Ермаков</span>
+                        <span class="our-team-position">UI Designer</span>
+                    </article>
+                </li>
             </ul>
         </section>
     </main>
+    <!--Footer-->
     <footer class="footer">
-
+        <!--logo WebStudio-->
+        <a href="#">
+            <!--<span class="blue">Web</span>Studio-->
+            <img src="./images/WebStudio-logo-2x.png" alt="logo" width="288" height="39" />
+        </a>
+        <address>
+            <ul>
+                <li>г. Киев, пр-т Леси Украинки, 26</li>
+                <li><a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a></li>
+                <li><a href="tel:+380961111111" class="contact-link">+38 096 111 11 11</a></li>
+            </ul>
+        </address>
     </footer>
 </body>
 
