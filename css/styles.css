@@ -1,4 +1,11 @@
+:root {
+    --color-prime: #212121;
+    --color-second:#757575;
+    --color-third: #FFFFFF;
+    --color-fourth: #2196F3;
+}
+
 body {
-    font-family: 'Roboto', 'Raleway', sans-serif;
-    color:212121;
+    font-family: 'Roboto', 'Raleway', sans-serif, 'Times New Roman', Times, serif;
+    color: --color-primary;
 }
