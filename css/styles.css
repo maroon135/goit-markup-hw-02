@@ -1,11 +1,13 @@
 :root {
-    --color-prime: #212121; /*blacl*/ 
-    --color-second:#757575; /*grey*/
-    --color-third: #2196F3; /*blue*/
+    --color-prime: #212121; /*black*/
+    --color-second: #757575; /*grey*/
+    --color-accent: #2196f3; /*blue*/
 }
 
 body {
-    font-family: 'Roboto', 'Raleway', sans-serif, 'Times New Roman', Times, serif;
+    font-family: 'Roboto', 'Raleway', sans-serif, serif, Times;
     color: --color-primary;
-    width:  width: 1600px;
+    width: 1600px;
 }
+
+/*header*/
