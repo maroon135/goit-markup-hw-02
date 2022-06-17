@@ -8,6 +8,9 @@ body {
     font-family: 'Roboto', 'Raleway', sans-serif, serif, Times;
     color: --color-primary;
     width: 1600px;
+    padding-left: 215px;
+    padding-right: 215px;
+    padding: 0 215px;
 }
 
 /*header*/
