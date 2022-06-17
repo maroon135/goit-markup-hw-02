@@ -6,11 +6,16 @@
 
 body {
     font-family: 'Roboto', 'Raleway', sans-serif, serif, Times;
-    color: --color-primary;
-    width: 1600px;
-    padding-left: 215px;
-    padding-right: 215px;
-    padding: 0 215px;
+    color: var(--color-prime);
+    /*width: 1600px;*/
+    /*padding: 0 215px;  left = right = 215px*/
+    background-color: aqua;
+}
+
+.content {
+    width: 1170px;
+    margin: 0 auto;
+    background-color: bisque;
 }
 
 /*header*/
