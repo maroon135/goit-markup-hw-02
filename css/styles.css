@@ -9,24 +9,22 @@ body {
     color: var(--color-prime);
     /*width: 1600px;*/
     /*padding: 0 215px;  left = right = 215px*/
-    background-color: aqua;
 }
 
 .content {
+    /*width: 1170px;*/
     width: 1170px;
     margin: 0 auto;
-    background-color: bisque;
 }
 
 /*header*/
 .header {
+    display: flex;
     padding: 24px 0;
+    align-items: center;
 }
 
 .logo {
-    top: 0;
-    left: 0;
-
     text-decoration: none;
     font-family: 'Raleway';
     font-style: normal;
@@ -42,4 +40,73 @@ body {
 
 .text-web {
     color: var(--color-accent);
+}
+
+.main-menu {
+    display: flex;
+    align-items: center;
+}
+
+.main-menu-list,
+.contacts-header-list {
+    list-style: none;
+    display: flex;
+}
+
+.main-menu-item:first-child {
+    margin-left: 92px;
+}
+
+.main-menu-item {
+    margin-left: 50px;
+}
+
+.contact-header-item:first-child {
+    margin-left: 253px;
+    margin-right: 50px;
+}
+
+.main-menu-item-link,
+.contact-header-link {
+    color: var(--color-prime);
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.contact-header-link {
+    color: var(--color-second);
+}
+
+.contact-header-link:hover,
+.contact-header-link:focus,
+.main-menu-item-link:hover,
+.main-menu-item-link:focus {
+    color: var(--color-accent);
+}
+
+/*order service заказать услугу*/
+.order-service {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: #2f303a;
+    color: #fff;
+}
+
+.order-service > h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.order-service > button {
+    margin-top: 30px;
+    background-color: var(--color-accent);
 }
