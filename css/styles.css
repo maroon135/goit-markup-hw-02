@@ -19,3 +19,27 @@ body {
 }
 
 /*header*/
+.header {
+    padding: 24px 0;
+}
+
+.logo {
+    top: 0;
+    left: 0;
+
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+.logo:visited {
+    color: var(--color-prime);
+}
+
+.text-web {
+    color: var(--color-accent);
+}
