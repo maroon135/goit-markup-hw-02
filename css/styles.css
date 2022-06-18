@@ -7,12 +7,12 @@
 body {
     font-family: 'Roboto', 'Raleway', sans-serif, serif, Times;
     color: var(--color-prime);
-    /*width: 1600px;*/
-    /*padding: 0 215px;  left = right = 215px*/
 }
 
 .content {
     /*width: 1170px;*/
+    /*width: 1600px;*/
+    /*padding: 0 215px;*/
     width: 1170px;
     margin: 0 auto;
 }
@@ -22,6 +22,7 @@ body {
     display: flex;
     padding: 24px 0;
     align-items: center;
+    justify-content: center;
 }
 
 .logo {
@@ -89,6 +90,7 @@ body {
 }
 
 /*order service заказать услугу*/
+
 .order-service {
     /*padding-top: 200px;
     padding-bottom: 200px;*/
@@ -103,7 +105,7 @@ body {
     */
 }
 
-.order-service > h1 {
+.order-service-title {
     color: #fff;
     font-style: normal;
     font-weight: 900;
@@ -114,7 +116,7 @@ body {
     text-transform: uppercase;
 }
 
-.order-service > button {
+.order-service-btn {
     color: #fff;
     background-color: var(--color-accent);
     margin-top: 30px;
@@ -130,4 +132,90 @@ body {
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.06em;
+}
+
+/*benefits Особенности*/
+.benefit-s {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.benefit-row {
+    display: flex;
+    list-style: none;
+}
+
+.benefit {
+    width: 270px;
+}
+
+.benefit-s-title,
+.we-doing-title,
+.team-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.benefit-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.benefit-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--color-second);
+}
+
+/*we doing Чем мы занимаемся*/
+
+.we-doing,
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.we-doing-row,
+.team-row {
+    display: flex;
+    list-style: none;
+}
+
+.we-doing-item,
+.team-card {
+    margin-right: 30px;
+}
+
+/*team Наша команда*/
+
+.team-name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-position {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--color-second);
 }
