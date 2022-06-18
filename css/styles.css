@@ -20,6 +20,7 @@ body {
 /*header*/
 .header {
     display: flex;
+    height: 32px;
     padding: 24px 0;
     align-items: center;
     justify-content: center;
@@ -52,6 +53,7 @@ body {
 .contacts-header-list {
     list-style: none;
     display: flex;
+    padding-left: 0;
 }
 
 .main-menu-item:first-child {
@@ -63,7 +65,7 @@ body {
 }
 
 .contact-header-item:first-child {
-    margin-left: 253px;
+    margin-left: 330px;
     margin-right: 50px;
 }
 
