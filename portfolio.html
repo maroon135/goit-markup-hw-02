@@ -20,7 +20,7 @@
 
 <body>
 
-    <header class="header content">
+    <header class="header content portfolio-header-border">
         <nav class="main-menu">
             <!--logo WebStudio-->
             <a class="logo" href="./index.html" lang="en">
@@ -51,17 +51,30 @@
     </header>
 
     <main class="content">
-        <div class="wrapper">
+        <div class="wrapper-portfolio">
+
             <div class="portfolio-nav">
-                <ul>
-                    <li><button type="button">Все</button></li>
-                    <li><button type="button">Веб-сайты</button></li>
-                    <li><button type="button">Приложения</button></li>
-                    <li><button type="button">Дизайн</button></li>
-                    <li><button type="button">Маркетинг</button></li>
+                <ul class="portfolio-nav-row">
+                    <li class="portfolio-nav-item">
+                        <button class="portfolio-nav-btn active-portfolio" type="button">Все</button>
+                    </li>
+                    <li class="portfolio-nav-item">
+                        <button class="portfolio-nav-btn" type="button">Веб-сайты</button>
+                    </li>
+                    <li class="portfolio-nav-item">
+                        <button class="portfolio-nav-btn" type="button">Приложения</button>
+                    </li>
+                    <li class="portfolio-nav-item">
+                        <button class="portfolio-nav-btn" type="button">Дизайн</button>
+                    </li>
+                    <li class="portfolio-nav-item">
+                        <button class="portfolio-nav-btn" type="button">Маркетинг</button>
+                    </li>
                 </ul>
             </div>
+
             <section class="portfolio">
+
                 <ul class="portfolio-row">
                     <li class="portfolio-item">
                         <img class="portfolio-img" src="./images/p1-tehnokriak-2x-75.jpg" alt="Portfolio Preview"
@@ -96,13 +109,13 @@
                     <li class="portfolio-item">
                         <img class="portfolio-img" src="./images/p6-inspiration-2x-75.jpg" alt="Portfolio Preview"
                             width="370">
-                        <h3>Inspiration has no Borders</h3>
+                        <h3 class="portfolio-title">Inspiration has no Borders</h3>
                         <p class="portfolio-text">Веб-сайт</p>
                     </li>
                     <li class="portfolio-item">
                         <img class="portfolio-img" src="./images/p7-lim-edition-2x-75.jpg" alt="Portfolio Preview"
                             width="370">
-                        <h3>Издание Limited Edition</h3>
+                        <h3 class="portfolio-title">Издание Limited Edition</h3>
                         <p class="portfolio-text">Дизайн</p>
                     </li>
                     <li class="portfolio-item">
@@ -114,11 +127,12 @@
                         <img class="portfolio-img" src="./images/p9-gr-business-2x-75.jpg" alt="Portfolio Preview"
                             width="370">
                         <h3 class="portfolio-title">Growing Business</h3>
-                        <p>Приложение</p>
+                        <p class="portfolio-text">Приложение</p>
                     </li>
                 </ul>
 
             </section>
+
         </div>
 
     </main>
