@@ -204,9 +204,6 @@ body {
 }
 
 /*we doing Чем мы занимаемся*/
-.we-doing {
-    /*background-color: cadetblue;*/
-}
 
 .we-doing,
 .team {
@@ -363,11 +360,9 @@ body {
     letter-spacing: 0.03em;
     color: var(--color-second);
 }
-
 /*portfolio page END*/
 
 /*footer-start*/
-
 .footer {
     background-color: var(--bg-color-footer);
     height: 132px;
@@ -407,5 +402,4 @@ body {
 .address-item:first-child > .address-link {
     color: #fff;
 }
-
 /*footer-END*/
