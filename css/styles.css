@@ -2,11 +2,15 @@
     --color-prime: #212121; /*black*/
     --color-second: #757575; /*grey*/
     --color-accent: #2196f3; /*blue*/
+    --bg-color-footer: #2f303a; /*footer + section order-service*/
+    --font-prime: 'Roboto';
+    --font-second: 'Raleway';
 }
 
 body {
-    font-family: 'Roboto', 'Raleway', sans-serif, serif, Times;
+    font-family: var(--font-prime), sans-serif, Arial;
     color: var(--color-prime);
+    font-weight: 400;
 }
 
 .content {
@@ -30,22 +34,21 @@ body {
 .portfolio-header-border {
     border-bottom: 1px solid #ececec;
 }
+/* styles for header in portfolio page END*/
 
-.header > .content {
-    /*это единственное место во всем css файле где я так обратился к классу*/
+.content-header {
     display: flex;
     flex-direction: row;
 }
 
-/* styles for header in portfolio page END*/
-
 .logo {
     text-decoration: none;
-    font-family: 'Raleway';
+    font-family: var(--font-second);
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    /*line-height: 31px;*/
+    line-height: 1.19em;
     letter-spacing: 0.03em;
 }
 
@@ -90,7 +93,8 @@ body {
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    /*line-height: 16px;*/
+    line-height: 1.14em;
     letter-spacing: 0.02em;
 }
 
@@ -114,7 +118,7 @@ body {
 .order-service {
     /*padding-top: 200px;
     padding-bottom: 200px;*/
-    background-color: #2f303a;
+    background-color: var(--bg-color-footer);
     height: 600px;
     display: flex;
     flex-direction: column;
@@ -126,7 +130,8 @@ body {
     color: #fff;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    /*line-height: 60px;*/
+    line-height: 1.36em;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -145,7 +150,8 @@ body {
 
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    /*line-height: 30px;*/
+    line-height: 1.87em;
     letter-spacing: 0.06em;
 }
 
@@ -173,7 +179,8 @@ body {
 .team-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    /*line-height: 42px;*/
+    line-height: 1.16em;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -181,15 +188,17 @@ body {
 .benefit-title {
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    /*line-height: 16px;*/
+    line-height: 1.14em;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .benefit-text {
-    font-weight: 400;
+    /*font-weight: 400;*/
     font-size: 14px;
-    line-height: 24px;
+    /*line-height: 24px;*/
+    line-height: 1.71em;
     letter-spacing: 0.03em;
     color: var(--color-second);
 }
@@ -235,15 +244,17 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    /*line-height: 19px;*/
+    line-height: 1.18em;
     text-align: center;
     letter-spacing: 0.03em;
 }
 
 .team-position {
-    font-weight: 400;
+    /*font-weight: 400;*/
     font-size: 16px;
-    line-height: 19px;
+    /*line-height: 19px;*/
+    line-height: 1.18em;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--color-second);
@@ -278,7 +289,8 @@ body {
 
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    /*line-height: 26px;*/
+    line-height: 1.62em;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -334,7 +346,8 @@ body {
 
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    /*line-height: 36px;*/
+    line-height: 2em;
     letter-spacing: 0.06em;
 }
 
@@ -343,9 +356,10 @@ body {
     margin-left: 24px;
     margin-top: 4px;
 
-    font-weight: 400;
+    /*font-weight: 400;*/
     font-size: 16px;
-    line-height: 30px;
+    /*line-height: 30px;*/
+    line-height: 1.87em;
     letter-spacing: 0.03em;
     color: var(--color-second);
 }
@@ -355,7 +369,7 @@ body {
 /*footer-start*/
 
 .footer {
-    background-color: #2f303a;
+    background-color: var(--bg-color-footer);
     height: 132px;
     padding: 60px 0;
 }
@@ -382,9 +396,10 @@ body {
 .address-link {
     text-decoration: none;
     font-style: normal;
-    font-weight: 400;
+    /*font-weight: 400;*/
     font-size: 14px;
-    line-height: 24px;
+    /*line-height: 24px;*/
+    line-height: 1.71em;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
