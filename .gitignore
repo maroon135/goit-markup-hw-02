@@ -1,6 +1,9 @@
 # images without optimization
 /images/original-images
 
+#temporary files, copy of previous versions
+/test
+
 
 
 
